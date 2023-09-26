@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_Swiper_4.5.0_css_swiper.min.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/cdnjs.cloudflare.com_ajax_libs_Swiper_4.5.0_js_swiper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+   <script src="js/script.js"></script>
+
+
+</head>
+<title>Jigsaw</title>
+</head>
+
+<body>
+
+
+  <!-- <div class="container"> -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="images/Jigsaw logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Solutions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+              <div class="menuSetting">
+                <div class="row">
+                  <div class="col-md-4">
+
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path opacity="0.4"
+                            d="M16.24 2H7.76C5 2 4 3 4 5.81V18.19C4 21 5 22 7.76 22H16.23C19 22 20 21 20 18.19V5.81C20 3 19 2 16.24 2Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M14 6.25H10C9.59 6.25 9.25 5.91 9.25 5.5C9.25 5.09 9.59 4.75 10 4.75H14C14.41 4.75 14.75 5.09 14.75 5.5C14.75 5.91 14.41 6.25 14 6.25Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M12 19.2998C12.9665 19.2998 13.75 18.5163 13.75 17.5498C13.75 16.5833 12.9665 15.7998 12 15.7998C11.0335 15.7998 10.25 16.5833 10.25 17.5498C10.25 18.5163 11.0335 19.2998 12 19.2998Z"
+                            fill="#2C3B84" />
+                        </svg>Jigsaw Mobile</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M21.25 22H2.75C2.34 22 2 21.66 2 21.25C2 20.84 2.34 20.5 2.75 20.5H21.25C21.66 20.5 22 20.84 22 21.25C22 21.66 21.66 22 21.25 22Z"
+                            fill="#F94F72" />
+                          <path opacity="0.4"
+                            d="M20.5899 13.6997L13.3599 20.9297C11.9399 22.3497 9.64988 22.3497 8.23988 20.9397L3.62988 16.3297L15.9899 3.96973L20.5999 8.57973C22.0099 9.98973 22.0099 12.2797 20.5899 13.6997Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M15.9901 3.97016L3.62006 16.3302L2.71006 15.4202C1.30006 14.0102 1.30006 11.7202 2.72006 10.3002L9.95006 3.07016C11.3701 1.65016 13.6601 1.65016 15.0701 3.06016L15.9901 3.97016Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M12.8901 17.5999L11.5401 18.9499C11.2601 19.2299 10.8101 19.2299 10.5301 18.9499C10.2501 18.6699 10.2501 18.2199 10.5301 17.9399L11.8801 16.5899C12.1601 16.3099 12.6101 16.3099 12.8901 16.5899C13.1701 16.8699 13.1701 17.3199 12.8901 17.5999Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M17.2701 13.22L14.5801 15.91C14.3001 16.19 13.8501 16.19 13.5701 15.91C13.2901 15.63 13.2901 15.18 13.5701 14.9L16.2601 12.21C16.5401 11.93 16.9901 11.93 17.2701 12.21C17.5401 12.49 17.5401 12.94 17.2701 13.22Z"
+                            fill="#F94F72" />
+                        </svg>Jigsaw® Pay</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="27"
+                          viewBox="0 0 24 27" fill="none">
+                          <path opacity="0.4"
+                            d="M22 15.2001V18.4573C22 20.2596 20.66 21.7144 19 21.7144H18C18 20.5201 17.1 19.543 16 19.543C14.9 19.543 14 20.5201 14 21.7144H10C10 20.5201 9.1 19.543 8 19.543C6.9 19.543 6 20.5201 6 21.7144H5C3.34 21.7144 2 20.2596 2 18.4573V15.2001H13C14.1 15.2001 15 14.223 15 13.0287V5.42871H16.84C17.56 5.42871 18.22 5.85215 18.58 6.52529L20.29 9.77157H19C18.45 9.77157 18 10.2601 18 10.8573V14.1144C18 14.7116 18.45 15.2001 19 15.2001H22Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M8 23.8858C9.10457 23.8858 10 22.9136 10 21.7144C10 20.5152 9.10457 19.543 8 19.543C6.89543 19.543 6 20.5152 6 21.7144C6 22.9136 6.89543 23.8858 8 23.8858Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M16 23.8858C17.1046 23.8858 18 22.9136 18 21.7144C18 20.5152 17.1046 19.543 16 19.543C14.8954 19.543 14 20.5152 14 21.7144C14 22.9136 14.8954 23.8858 16 23.8858Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M22 13.6041V15.2001H19C18.45 15.2001 18 14.7115 18 14.1143V10.8572C18 10.2601 18.45 9.77148 19 9.77148H20.29L21.74 12.5292C21.91 12.8549 22 13.2241 22 13.6041Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M14 2.17188H6C4.05 2.17188 2.43002 3.69187 2.08002 5.70045H7C7.41 5.70045 7.75 6.06959 7.75 6.51473C7.75 6.95987 7.41 7.32902 7 7.32902H2V8.95759H5C5.41 8.95759 5.75 9.32673 5.75 9.77187C5.75 10.217 5.41 10.5862 5 10.5862H2V12.2147H3C3.41 12.2147 3.75 12.5839 3.75 13.029C3.75 13.4742 3.41 13.8433 3 13.8433H2V15.2004H13C14.1 15.2004 15 14.2233 15 13.029V3.25759C15 2.66045 14.55 2.17188 14 2.17188Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M2.08002 5.7002H1C0.59 5.7002 0.25 6.06934 0.25 6.51448C0.25 6.95962 0.59 7.32877 1 7.32877H2V6.51448C2 6.2322 2.03002 5.96077 2.08002 5.7002Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M1 8.95801C0.59 8.95801 0.25 9.32715 0.25 9.77229C0.25 10.2174 0.59 10.5866 1 10.5866H2V8.95801H1Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M1 12.2148C0.59 12.2148 0.25 12.584 0.25 13.0291C0.25 13.4743 0.59 13.8434 1 13.8434H2V12.2148H1Z"
+                            fill="#2C3B84" />
+                        </svg>Jigsaw® Drive</a></li>
+                  </div>
+
+                  <!-- <div class="row"> -->
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path opacity="0.4"
+                            d="M21.97 6.41V12.91H2V6.41C2 3.98 3.98 2 6.41 2H17.56C19.99 2 21.97 3.98 21.97 6.41Z"
+                            fill="#606060" />
+                          <path
+                            d="M2 12.9199V13.1199C2 15.5599 3.98 17.5299 6.41 17.5299H10.25C10.8 17.5299 11.25 17.9799 11.25 18.5299V19.4999C11.25 20.0499 10.8 20.4999 10.25 20.4999H7.83C7.42 20.4999 7.08 20.8399 7.08 21.2499C7.08 21.6599 7.41 21.9999 7.83 21.9999H16.18C16.59 21.9999 16.93 21.6599 16.93 21.2499C16.93 20.8399 16.59 20.4999 16.18 20.4999H13.76C13.21 20.4999 12.76 20.0499 12.76 19.4999V18.5299C12.76 17.9799 13.21 17.5299 13.76 17.5299H17.57C20.01 17.5299 21.98 15.5499 21.98 13.1199V12.9199H2Z"
+                            fill="#606060" />
+                        </svg>Jigsaw® Web</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M17 22.75H7C6.59 22.75 6.25 22.41 6.25 22C6.25 21.59 6.59 21.25 7 21.25H17C17.41 21.25 17.75 21.59 17.75 22C17.75 22.41 17.41 22.75 17 22.75Z"
+                            fill="#A92D94" />
+                          <path opacity="0.4"
+                            d="M18 19H6C3.79 19 2 17.21 2 15V6C2 3.79 3.79 2 6 2H18C20.21 2 22 3.79 22 6V15C22 17.21 20.21 19 18 19Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M17.2599 9.07031H13.58C13.17 9.07031 12.83 8.73031 12.83 8.32031C12.83 7.91031 13.17 7.57031 13.58 7.57031H17.2599C17.6699 7.57031 18.0099 7.91031 18.0099 8.32031C18.0099 8.73031 17.6799 9.07031 17.2599 9.07031Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M10 9.32031C9.45 9.32031 9 8.87031 9 8.32031C9 7.77031 9.44 7.32031 10 7.32031C10.55 7.32031 11 7.77031 11 8.32031C11 8.87031 10.56 9.32031 10 9.32031Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M6.84998 9.32031C6.29998 9.32031 5.84998 8.87031 5.84998 8.32031C5.84998 7.77031 6.28998 7.32031 6.84998 7.32031H6.85997C7.40997 7.32031 7.85997 7.77031 7.85997 8.32031C7.85997 8.87031 7.39998 9.32031 6.84998 9.32031Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M17.26 14.8604H6.74998C6.33998 14.8604 5.98999 14.5204 5.98999 14.1104C5.98999 13.7004 6.31998 13.3604 6.72998 13.3604H17.26C17.67 13.3604 18.01 13.7004 18.01 14.1104C18.01 14.5204 17.68 14.8604 17.26 14.8604Z"
+                            fill="#A92D94" />
+                        </svg>Jigsaw® KISOK</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#">
+                        <div class="settingImg"><img src="images/bb.png">
+                          <p> request a demo </p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none">
+                            <path
+                              d="M8.90991 19.9201L15.4299 13.4001C16.1999 12.6301 16.1999 11.3701 15.4299 10.6001L8.90991 4.08008"
+                              stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </a></li>
+                  </div>
+                </div>
+
+
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Resourcese
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div class="menuSetting">
+                <div class="row">
+                  <div class="col-md-4">
+
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path opacity="0.4"
+                            d="M16.24 2H7.76C5 2 4 3 4 5.81V18.19C4 21 5 22 7.76 22H16.23C19 22 20 21 20 18.19V5.81C20 3 19 2 16.24 2Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M14 6.25H10C9.59 6.25 9.25 5.91 9.25 5.5C9.25 5.09 9.59 4.75 10 4.75H14C14.41 4.75 14.75 5.09 14.75 5.5C14.75 5.91 14.41 6.25 14 6.25Z"
+                            fill="#2C3B84" />
+                          <path
+                            d="M12 19.2998C12.9665 19.2998 13.75 18.5163 13.75 17.5498C13.75 16.5833 12.9665 15.7998 12 15.7998C11.0335 15.7998 10.25 16.5833 10.25 17.5498C10.25 18.5163 11.0335 19.2998 12 19.2998Z"
+                            fill="#2C3B84" />
+                        </svg>Jigsaw Mobile</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path opacity="0.4"
+                            d="M10.75 2.45007C11.45 1.86007 12.58 1.86007 13.26 2.45007L14.84 3.80007C15.14 4.05007 15.71 4.26007 16.11 4.26007H17.81C18.87 4.26007 19.74 5.13007 19.74 6.19007V7.89007C19.74 8.29007 19.95 8.85007 20.2 9.15007L21.55 10.7301C22.14 11.4301 22.14 12.5601 21.55 13.2401L20.2 14.8201C19.95 15.1201 19.74 15.6801 19.74 16.0801V17.7801C19.74 18.8401 18.87 19.7101 17.81 19.7101H16.11C15.71 19.7101 15.15 19.9201 14.85 20.1701L13.27 21.5201C12.57 22.1101 11.44 22.1101 10.76 21.5201L9.18001 20.1701C8.88 19.9201 8.31 19.7101 7.92 19.7101H6.17C5.11 19.7101 4.24 18.8401 4.24 17.7801V16.0701C4.24 15.6801 4.04 15.1101 3.79 14.8201L2.44 13.2301C1.86 12.5401 1.86 11.4201 2.44 10.7301L3.79 9.14007C4.04 8.84007 4.24 8.28007 4.24 7.89007V6.20007C4.24 5.14007 5.11 4.27007 6.17 4.27007H7.9C8.3 4.27007 8.86 4.06007 9.16 3.81007L10.75 2.45007Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M12 16.8701C11.45 16.8701 11 16.4201 11 15.8701C11 15.3201 11.44 14.8701 12 14.8701C12.55 14.8701 13 15.3201 13 15.8701C13 16.4201 12.56 16.8701 12 16.8701Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M12 13.7199C11.59 13.7199 11.25 13.3799 11.25 12.9699V8.12988C11.25 7.71988 11.59 7.37988 12 7.37988C12.41 7.37988 12.75 7.71988 12.75 8.12988V12.9599C12.75 13.3799 12.42 13.7199 12 13.7199Z"
+                            fill="#A92D94" />
+                        </svg>About Us</a></li>
+
+
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z"
+                            fill="#F94F72" />
+                          <path opacity="0.4"
+                            d="M10.75 2.45007C11.45 1.86007 12.58 1.86007 13.26 2.45007L14.84 3.80007C15.14 4.05007 15.71 4.26007 16.11 4.26007H17.81C18.87 4.26007 19.74 5.13007 19.74 6.19007V7.89007C19.74 8.29007 19.95 8.85007 20.2 9.15007L21.55 10.7301C22.14 11.4301 22.14 12.5601 21.55 13.2401L20.2 14.8201C19.95 15.1201 19.74 15.6801 19.74 16.0801V17.7801C19.74 18.8401 18.87 19.7101 17.81 19.7101H16.11C15.71 19.7101 15.15 19.9201 14.85 20.1701L13.27 21.5201C12.57 22.1101 11.44 22.1101 10.76 21.5201L9.18001 20.1701C8.88 19.9201 8.31 19.7101 7.92 19.7101H6.17C5.11 19.7101 4.24 18.8401 4.24 17.7801V16.0701C4.24 15.6801 4.04 15.1101 3.79 14.8201L2.44 13.2301C1.86 12.5401 1.86 11.4201 2.44 10.7301L3.79 9.14007C4.04 8.84007 4.24 8.28007 4.24 7.89007V6.20007C4.24 5.14007 5.11 4.27007 6.17 4.27007H7.9C8.3 4.27007 8.86 4.06007 9.16 3.81007L10.75 2.45007Z"
+                            fill="#A92D94" />
+
+                          <path
+                            d="M11.75 14H6.75C6.34 14 6 13.66 6 13.25C6 12.84 6.34 12.5 6.75 12.5H11.75C12.16 12.5 12.5 12.84 12.5 13.25C12.5 13.66 12.16 14 11.75 14Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M15.75 18H6.75C6.34 18 6 17.66 6 17.25C6 16.84 6.34 16.5 6.75 16.5H15.75C16.16 16.5 16.5 16.84 16.5 17.25C16.5 17.66 16.16 18 15.75 18Z"
+                            fill="#F94F72" />
+                        </svg>Newsletters</a></li>
+                  </div>
+
+
+
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z"
+                            fill="#F94F72" />
+                          <path opacity="0.4"
+                            d="M19 9.5C16.52 9.5 14.5 7.48 14.5 5C14.5 4.28 14.69 3.61 14.99 3H7.52C4.07 3 2 5.06 2 8.52V16.47C2 19.94 4.07 22 7.52 22H15.47C18.93 22 20.99 19.94 20.99 16.48V9.01C20.39 9.31 19.72 9.5 19 9.5Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M11.75 14H6.75C6.34 14 6 13.66 6 13.25C6 12.84 6.34 12.5 6.75 12.5H11.75C12.16 12.5 12.5 12.84 12.5 13.25C12.5 13.66 12.16 14 11.75 14Z"
+                            fill="#F94F72" />
+                          <path
+                            d="M15.75 18H6.75C6.34 18 6 17.66 6 17.25C6 16.84 6.34 16.5 6.75 16.5H15.75C16.16 16.5 16.5 16.84 16.5 17.25C16.5 17.66 16.16 18 15.75 18Z"
+                            fill="#F94F72" />
+                        </svg>Newsletters</a></li>
+                  </div>
+
+
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M17.62 10.7496C17.19 10.7496 16.85 10.3996 16.85 9.97961C16.85 9.60961 16.48 8.83961 15.86 8.16961C15.25 7.51961 14.58 7.13961 14.02 7.13961C13.59 7.13961 13.25 6.78961 13.25 6.36961C13.25 5.94961 13.6 5.59961 14.02 5.59961C15.02 5.59961 16.07 6.13961 16.99 7.10961C17.85 8.01961 18.4 9.14961 18.4 9.96961C18.4 10.3996 18.05 10.7496 17.62 10.7496Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M21.23 10.75C20.8 10.75 20.46 10.4 20.46 9.98C20.46 6.43 17.57 3.55 14.03 3.55C13.6 3.55 13.26 3.2 13.26 2.78C13.26 2.36 13.6 2 14.02 2C18.42 2 22 5.58 22 9.98C22 10.4 21.65 10.75 21.23 10.75Z"
+                            fill="#A92D94" />
+                          <path opacity="0.4"
+                            d="M11.79 14.21L8.52 17.48C8.16 17.16 7.81 16.83 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.09 13.57 11.44 13.91 11.79 14.21Z"
+                            fill="#A92D94" />
+                          <path
+                            d="M21.97 18.33C21.97 18.61 21.92 18.9 21.82 19.18C21.79 19.26 21.76 19.34 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C19.39 21.62 19.38 21.63 19.37 21.63C18.78 21.87 18.14 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C10.36 19 9.96998 18.71 9.59998 18.4L12.87 15.13C13.15 15.34 13.4 15.5 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                            fill="#A92D94" />
+                        </svg>Contact Us</a></li>
+                  </div>
+                  <div class="col-md-4">
+                    <li><a class="dropdown-item" href="#">
+                        <div class="settingImg"><img src="images/bb.png">
+                          <p> request a demo </p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none">
+                            <path
+                              d="M8.90991 19.9201L15.4299 13.4001C16.1999 12.6301 16.1999 11.3701 15.4299 10.6001L8.90991 4.08008"
+                              stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </a></li>
+                  </div>
+
+                </div>
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <div class="menu-btns">
+
+              <div><a href="#" id="Rquset-btn">REQUEST A DEMO
+                </a></div>
+              <div>
+                <a href="#" id="Languge-btn"> عربي </a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+
+    </div>
+
+
+
+
+  </nav>
+  
+
+
+
+
+  <section id="hero">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-7">
+          <div class="hero-text">
+
+            <h1>Jigsaw® is an <span class="sparkling"> ALL-IN-ON </span>
+              cloud-based Ordering, Payment
+              and Delivery Platform </h1>
+              <p  class="sparkling2"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+                <path d="M7.48312 9.88287V7.88857C7.48312 7.03176 7.78499 5.96813 8.38872 4.69769L10.3906 0.39886C10.5812 0.132953 10.8195 0 11.1055 0C11.5504 0 11.7728 0.236361 11.7728 0.709084V9.83855C11.7728 10.3408 11.5186 10.592 11.0102 10.592H8.29339C7.75321 10.592 7.48312 10.3556 7.48312 9.88287ZM0 9.88287V7.88857C0 7.09085 0.285979 6.02722 0.857937 4.69769L2.90745 0.39886C3.03456 0.132953 3.25698 0 3.57474 0C4.0196 0 4.24202 0.236361 4.24202 0.709084V9.83855C4.24202 10.3408 3.98782 10.592 3.47941 10.592H0.762611C0.254204 10.592 0 10.3556 0 9.88287Z" fill="#F94F72"/>
+              </svg>Keep your goal close, and your customer closer”</p>
+          </div>
+
+          <div class="hero-btns">
+            <a href="#" class="demo-btn"> <i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g id="Icon">
+                    <g id="vuesax/linear/import">
+                      <g id="import">
+                        <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                          stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Vector_3"
+                          d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                          stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </i>Request A Demo
+
+            </a>
+
+            <a href="images/image 42.png" download="" class="download-btn"> <i><svg width="28" height="28"
+                  viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Icon">
+                    <g id="vuesax/linear/import">
+                      <g id="import">
+                        <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                          stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Vector_3"
+                          d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                          stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </i>Download A Profile
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-5">
+          <div id="heroBox">
+            <img id="img1" src="images/ff.png">
+          </div>
+        </div>
+      </div>
+
+      <img class="jump" id="img0" src="images/sss.png">
+
+      <img class="jump" id="hero-img" src="images/Jigsaw-elements2 1.png">
+
+
+      <div class="scrolBox">
+        <a href=""><img  class="jump2" src="images/icon Scroll to explore more.png"> </a>
+        <p>Scroll to explore more</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <scetion id="who-are-we">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2> Who We Are ? </h2>
+          <h3>Jigsaw® is an ALL-IN-ONE cloud-based Ordering, Payment and Delivery Platform</h3>
+          <ul class="list-unstyled">
+            <!-- assets/imgs/3.svg -->
+            <li class="orderBg"><span>1</span>
+              <p>Jigsaw® helps set up digital ordering and Delivery
+                system via
+                mobile app, web app, self-services (Kiosk), or digital call center for F&B and Retail Industries,
+                leading
+
+                to cutting high costs and increasing business profitability.</p>
+            </li>
+            <li class="orderBg"> <span>2</span>
+              <p>Jigsaw enables seamless integrations with leading
+                food ordering
+                platforms and other solutions.</p>
+            </li>
+            <li class="orderBg"> <span>3</span>
+              <p> We help businesses put technology to work so they can
+                focus on
+                providing a great products and services that keep their customers coming back.
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-md-7">
+          <div class="imgBox"><img src="images/Dashboard.png"></div>
+        </div>
+      </div>
+    </div>
+  </scetion>
+
+  <section id="solutions">
+    <div class="container">
+      <h2>Services/Solutions</h2>
+      <h3>Keep your goal close, and your customer closer</h3>
+
+
+
+
+
+      <div class="row">
+        <div class="d-flex align-items-start">
+
+          <div class="col-md-3 nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+              type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+              <img  src="images/vuesax (1).png">
+
+              <img  src="images/i1.png">
+
+             
+
+
+              ®Mobile App</button>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+              type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+
+              <img  src="images/vuesax (3).png">
+              <img  src="images/vuesax (2).png">
+
+
+
+              Jigsaw® Web App</button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+              type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+             
+              <img  src="images/vuesax (5).png">
+              <img  src="images/vuesax (4).png">
+
+
+
+              Jigsaw® KISOK
+            </button>
+            <button class="nav-link" id="v-pills-pay-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pay"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+              <img  src="images/vuesax (7).png">
+              <img  src="images/vuesax (6).png">
+
+           
+
+              Jigsaw® Pay
+            </button>
+            <button class="nav-link" id="v-pills-drive-tab" data-bs-toggle="pill" data-bs-target="#v-pills-drive"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+             
+              <img src="images/vuesax (9).png">
+              <img  src="images/vuesax (8).png">
+              Jigsaw® Drive
+            </button>
+
+            <button class="nav-link" id="v-pills-thru-tab" data-bs-toggle="pill" data-bs-target="#v-pills-thru"
+              type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+            
+              <img class="click" src="images/driving2.png">
+              <img class="no-click" src="images/driving.png">
+              Jigsaw® drive thru
+            </button>
+          </div>
+
+          
+              <div class="col-md-9 tab-content" id="v-pills-tabContent">
+
+                    
+                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <div class="row">
+                      <div class="col-md-7 ">
+                        <h4>Fully Customized</h4>
+                        <h5>Mobile Application</h5>
+                        <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                           their
+                          phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                          implementation
+                           plans and customer support
+                           </p>
+               
+                              <ul class="services">
+                <li id="digital-wallet">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/slider-horizontal">
+                          <g id="slider-horizontal">
+                            <path id="Vector"
+                              d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </i><span>Digital Wallet</span>
+                  
+                </li>
+                <li id="feedback">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/note">
+                          <g id="note">
+                            <path id="Vector"
+                              d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                              stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_2"
+                              d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Feedback</span>
+                  
+                  </li>
+                <li id="notes">
+                  <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 159">
+                          <g id="vuesax/linear/group">
+                            <g id="group">
+                              <path id="Vector"
+                                d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_3"
+                                d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_4"
+                                d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_5"
+                                d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Push Notifications</span>
+                  </li>
+                             </ul>
+    
+                                <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Icon">
+                      <g id="vuesax/linear/import">
+                        <g id="import">
+                          <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                            stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                          <path id="Vector_3"
+                            d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                            stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </g>
+                      </g>
+                    </g>
+                             </svg>
+                              </i>See More</button>
+                          </div>
+                   
+                      <div class="col-md-2">
+                        <div class="img-services" ><img src="images/Group 69319.png"></div> 
+                     </div>
+
+                    </div>
+                  </div>  
+            
+          
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="row">
+                <div class="col-md-7">
+              <h4>Fully Customized</h4>
+              <h5>Mobile Application</h5>
+              <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                their
+                phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                implementation
+                plans and customer support
+              </p>
+              <!-- 3 divs iside big one -->
+
+              <ul class="services">
+                <li id="digital-wallet">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/slider-horizontal">
+                          <g id="slider-horizontal">
+                            <path id="Vector"
+                              d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </i><span>Digital Wallet</span>
+                  
+                </li>
+                <li id="feedback">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/note">
+                          <g id="note">
+                            <path id="Vector"
+                              d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                              stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_2"
+                              d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Feedback</span>
+                  
+                  </li>
+                <li id="notes">
+                  <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 159">
+                          <g id="vuesax/linear/group">
+                            <g id="group">
+                              <path id="Vector"
+                                d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_3"
+                                d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_4"
+                                d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_5"
+                                d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Push Notifications</span>
+                  </li>
+              </ul>
+
+              <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Icon">
+                      <g id="vuesax/linear/import">
+                        <g id="import">
+                          <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                            stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                          <path id="Vector_3"
+                            d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                            stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </i>See More</button>
+              </div>
+              <div class="col-md-2">
+                <div class="img-services"><img  src="images/Group 69319.png"></div>
+             </div>
+
+            </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                
+              <div class="row">
+                <div class="col-md-7">
+                <h4>Fully Customized</h4>
+                <h5>Mobile Application</h5>
+              <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                their
+                phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                implementation
+                plans and customer support
+              </p>
+              <!-- 3 divs iside big one -->
+
+              <ul class="services">
+                <li id="digital-wallet">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/slider-horizontal">
+                          <g id="slider-horizontal">
+                            <path id="Vector"
+                              d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </i><span>Digital Wallet</span>
+                  
+                </li>
+                <li id="feedback">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/note">
+                          <g id="note">
+                            <path id="Vector"
+                              d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                              stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_2"
+                              d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Feedback</span>
+                  
+                  </li>
+                <li id="notes">
+                  <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 159">
+                          <g id="vuesax/linear/group">
+                            <g id="group">
+                              <path id="Vector"
+                                d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_3"
+                                d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_4"
+                                d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_5"
+                                d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Push Notifications</span>
+                  </li>
+              </ul>
+
+
+              <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Icon">
+                      <g id="vuesax/linear/import">
+                        <g id="import">
+                          <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                            stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                          <path id="Vector_3"
+                            d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                            stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </i>See More</button>
+                </div>
+                <div class="col-md-2">
+                 <div class="img-services" ><img src="images/Group 69319.png"></div> 
+               </div>
+               
+              </div>
+             </div>
+            
+            <div class="tab-pane fade" id="v-pills-pay" role="tabpanel" aria-labelledby="v-pills-pay-tab">
+              
+              <div class="row">
+                <div class="col-md-7">
+              <h4>Fully Customized</h4>
+              <h5>Mobile Application</h5>
+              <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                their
+                phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                implementation
+                plans and customer support
+              </p>
+              <!-- 3 divs iside big one -->
+
+              <ul class="services">
+                <li id="digital-wallet">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/slider-horizontal">
+                          <g id="slider-horizontal">
+                            <path id="Vector"
+                              d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </i><span>Digital Wallet</span>
+                  
+                </li>
+                <li id="feedback">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/note">
+                          <g id="note">
+                            <path id="Vector"
+                              d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                              stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_2"
+                              d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Feedback</span>
+                  
+                  </li>
+                <li id="notes">
+                  <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 159">
+                          <g id="vuesax/linear/group">
+                            <g id="group">
+                              <path id="Vector"
+                                d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_3"
+                                d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_4"
+                                d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_5"
+                                d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Push Notifications</span>
+                  </li>
+              </ul>
+
+
+              <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Icon">
+                      <g id="vuesax/linear/import">
+                        <g id="import">
+                          <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                            stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                          <path id="Vector_3"
+                            d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                            stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </i>See More</button>
+                </div>
+                <div class="col-md-2">
+                  <div class="img-services" ><img src="images/Group 69319.png"></div> 
+               </div>
+
+            </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-drive" role="tabpanel" aria-labelledby="v-pills-drive-tab">
+              <div class="row">
+                <div class="col-md-7">
+              <h4>Fully Customized</h3>
+                <h5>Mobile Application</h5>
+                <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                  their
+                  phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                  implementation
+                  plans and customer support
+                </p>
+                <!-- 3 divs iside big one -->
+                <ul class="services">
+                  <li id="digital-wallet">
+                    <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="vuesax/linear/slider-horizontal">
+                            <g id="slider-horizontal">
+                              <path id="Vector"
+                                d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                                fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                              <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </svg>
+  
+                      </i><span>Digital Wallet</span>
+                    
+                  </li>
+                  <li id="feedback">
+                    <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="vuesax/linear/note">
+                            <g id="note">
+                              <path id="Vector"
+                                d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                                fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </svg>
+                      </i> <span>Feedback</span>
+                    
+                    </li>
+                  <li id="notes">
+                    <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="Group 159">
+                            <g id="vuesax/linear/group">
+                              <g id="group">
+                                <path id="Vector"
+                                  d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                  stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                                <path id="Vector_2"
+                                  d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                  fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                                <path id="Vector_3"
+                                  d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                  stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                                <path id="Vector_4"
+                                  d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                  stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                                <path id="Vector_5"
+                                  d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                  stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                  stroke-linejoin="round" />
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </i> <span>Push Notifications</span>
+                    </li>
+                </ul>
+  
+                <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <g id="Icon">
+                        <g id="vuesax/linear/import">
+                          <g id="import">
+                            <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                              stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3"
+                              d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                              stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </i>See More</button>
+                </div>
+                <div class="col-md-2">
+                  <div class="img-services" ><img src="images/Group 69319.png"></div> 
+               </div>
+            </div>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-thru" role="tabpanel" aria-labelledby="v-pills-thru-tab">
+               <div class="row">
+              <div class="col-md-7">
+              <h3>Fully Customized</h3>
+              <h5>Mobile Application</h5>
+              <p>Jigsaw enables smart ordering technology, simplifies operations by allowing customers to order from
+                their
+                phone. Jigsaw offers fast and secure payments, integrations with major POS systems, tailored
+                implementation
+                plans and customer support
+              </p>
+              <!-- 3 divs iside big one -->
+
+              <ul class="services">
+                <li id="digital-wallet">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/slider-horizontal">
+                          <g id="slider-horizontal">
+                            <path id="Vector"
+                              d="M5.26611 15.9092V7.35411C5.26611 6.76476 5.28512 6.24194 5.35166 5.77616C5.62733 3.27616 6.80604 2.60126 10.019 2.60126H13.8212C17.0342 2.60126 18.2129 3.27616 18.4885 5.77616C18.5551 6.24194 18.5741 6.76476 18.5741 7.35411V15.9092C18.5741 16.4986 18.5551 17.0214 18.4885 17.4872C18.2129 19.9872 17.0342 20.6621 13.8212 20.6621H10.019C6.80604 20.6621 5.62733 19.9872 5.35166 17.4872C5.28512 17.0214 5.26611 16.4986 5.26611 15.9092Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path id="Vector_2" d="M2.41455 18.7609V4.50238" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_3" d="M21.4258 18.2857V4.0271" stroke="#2C3B84" stroke-width="1.42586"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+
+                    </i><span>Digital Wallet</span>
+                  
+                </li>
+                <li id="feedback">
+                  <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="vuesax/linear/note">
+                          <g id="note">
+                            <path id="Vector"
+                              d="M14.8062 18.6563C14.2168 19.0556 13.4754 19.3883 12.5723 19.683L11.0704 20.1773C7.29668 21.394 5.30999 20.3769 4.08375 16.6031L2.86702 12.8484C1.65029 9.07459 2.6579 7.0784 6.43166 5.86167L7.93356 5.36737C8.3233 5.2438 8.69402 5.13923 9.04573 5.07269C8.76056 5.65254 8.53242 6.35596 8.34231 7.16395L7.41075 11.1468C6.47919 15.1202 7.70543 17.0784 11.6693 18.0195L13.2663 18.3997C13.8176 18.5328 14.3309 18.6183 14.8062 18.6563Z"
+                              stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Vector_2"
+                              d="M21.08 10.1488L20.1484 14.1222C19.3499 17.5537 17.772 18.9416 14.8062 18.6564C14.3309 18.6184 13.8176 18.5328 13.2663 18.3998L11.6693 18.0195C7.70546 17.0785 6.47922 15.1203 7.41078 11.1469L8.34234 7.16401C8.53246 6.35603 8.76059 5.65261 9.04576 5.07276C10.1579 2.77238 12.0496 2.15451 15.2245 2.90546L16.8119 3.27618C20.7948 4.20774 22.0115 6.17542 21.08 10.1488Z"
+                              fill="#A92D94" stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Feedback</span>
+                  
+                  </li>
+                <li id="notes">
+                  <i><svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 159">
+                          <g id="vuesax/linear/group">
+                            <g id="group">
+                              <path id="Vector"
+                                d="M14.3081 2.85217V12.3579C14.3081 13.4035 13.4526 14.259 12.407 14.259H1.95068V6.65445C1.95068 4.55369 3.6522 2.85217 5.75296 2.85217H14.3081Z"
+                                stroke="#A92D94" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_2"
+                                d="M20.9621 14.2591V17.1108C20.9621 18.6887 19.6883 19.9625 18.1104 19.9625H17.1598C17.1598 18.9168 16.3043 18.0613 15.2587 18.0613C14.213 18.0613 13.3575 18.9168 13.3575 19.9625H9.55525C9.55525 18.9168 8.69973 18.0613 7.65411 18.0613C6.60848 18.0613 5.75296 18.9168 5.75296 19.9625H4.80239C3.22445 19.9625 1.95068 18.6887 1.95068 17.1108V14.2591H12.407C13.4526 14.2591 14.3081 13.4035 14.3081 12.3579V5.70392H16.0571C16.7416 5.70392 17.3689 6.07465 17.7111 6.664L19.3366 9.5062H18.1104C17.5876 9.5062 17.1598 9.93396 17.1598 10.4568V13.3085C17.1598 13.8313 17.5876 14.2591 18.1104 14.2591H20.9621Z"
+                                fill="#2C3B84" stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_3"
+                                d="M7.65407 21.8636C8.70404 21.8636 9.55521 21.0125 9.55521 19.9625C9.55521 18.9125 8.70404 18.0613 7.65407 18.0613C6.6041 18.0613 5.75293 18.9125 5.75293 19.9625C5.75293 21.0125 6.6041 21.8636 7.65407 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_4"
+                                d="M15.2586 21.8636C16.3085 21.8636 17.1597 21.0125 17.1597 19.9625C17.1597 18.9125 16.3085 18.0613 15.2586 18.0613C14.2086 18.0613 13.3574 18.9125 13.3574 19.9625C13.3574 21.0125 14.2086 21.8636 15.2586 21.8636Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path id="Vector_5"
+                                d="M20.9619 12.3579V14.259H18.1102C17.5874 14.259 17.1597 13.8313 17.1597 13.3084V10.4567C17.1597 9.93392 17.5874 9.50616 18.1102 9.50616H19.3365L20.9619 12.3579Z"
+                                stroke="#2C3B84" stroke-width="1.42586" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </i> <span>Push Notifications</span>
+                  </li>
+              </ul>
+
+
+              <button id="see-more-btn"><i><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="Icon">
+                      <g id="vuesax/linear/import">
+                        <g id="import">
+                          <path id="Vector" d="M10.7866 13.752L13.6257 16.5911L16.4647 13.752" stroke="white"
+                            stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path id="Vector_2" d="M13.6257 5.23499V16.5135" stroke="white" stroke-width="2.37643"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                          <path id="Vector_3"
+                            d="M22.6309 14.3065C22.6309 19.2082 19.3039 23.1784 13.759 23.1784C8.21396 23.1784 4.88696 19.2082 4.88696 14.3065"
+                            stroke="white" stroke-width="2.37643" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </i>See More</button>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="img-services" ><img src="images/Group 69319.png"></div> 
+               </div>
+
+            </div>
+              </div>
+        </div>
+        </div>
+
+
+      </div>
+      </container>
+  </section>
+
+  <section id="Features-Characteristics">
+    <h2>Features & Characteristics</h2>
+    <h3>Developed to meet your project needs</h3>
+    <img id="ellipse" src="images/Ellipse 22.png">
+
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <div class="col-md-3">
+
+          <div class="bigBox">
+            <div class="imgBox">
+              <img src="images/_x31_77_1_.png" alt="">
+            </div>
+            <div class="descBox">
+              <h4>
+                Statistics and sales dashboard
+              </h4>
+              <p>
+                Keep an eye on your sales and all statuses by getting with the latest reports and analytical insights
+                through an integrated and easy-to-use control panel.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+
+          <div class="bigBox">
+            <div class="imgBox">
+              <img src="images/_x31_77_1_.png" alt="">
+            </div>
+            <div class="descBox">
+              <h4>
+                Statistics and sales dashboard
+              </h4>
+              <p>
+                Keep an eye on your sales and all statuses by getting with the latest reports and analytical insights
+                through an integrated and easy-to-use control panel.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+          <div class="bigBox">
+            <div class="imgBox">
+              <img src="images/_x31_77_1_.png" alt="">
+            </div>
+            <div class="descBox">
+              <h4>
+                Statistics and sales dashboard
+              </h4>
+              <p>
+                Keep an eye on your sales and all statuses by getting with the latest reports and analytical insights
+                through an integrated and easy-to-use control panel.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+          <div class="bigBox">
+            <div class="imgBox">
+              <img src="images/_x31_77_1_.png" alt="">
+            </div>
+            <div class="descBox">
+              <h4>
+                Statistics and sales dashboard
+              </h4>
+              <p>
+                Keep an eye on your sales and all statuses by getting with the latest reports and analytical insights
+                through an integrated and easy-to-use control panel.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <div id="explore-btn">
+      <button>Explore all features</button>
+    </div>
+
+
+  </section>
+
+  <section id="integration">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="integrationText"><h2>Integration</h2>
+            <h3>The platform your whole business will love </h3>
+            <p>Jigsaw® has seamless integration with the tools and integrations you need with leading food ordering
+              platforms. Each product in the platform is powerful on its own.</p></div>
+          <img class="butterfly" src="images/alal.png">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Text Messaging
+                Portals</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                type="button" role="tab" aria-controls="pills-contact" aria-selected="false">POS Systems</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled"
+                type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Delivery
+                Applications</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-electronic-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-electronic" type="button" role="tab" aria-controls="pills-electronic"
+                aria-selected="false">Electronic payment
+                gateways</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-inventory-tab" data-bs-toggle="pill" data-bs-target="#pills-inventory"
+                type="button" role="tab" aria-controls="pills-inventory" aria-selected="false">Inventory Management
+                Systems</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-digital-tab" data-bs-toggle="pill" data-bs-target="#pills-digital"
+                type="button" role="tab" aria-controls="pills-digital" aria-selected="false">Digital Call
+                Centre</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-5" style="
+        padding: 0p">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+              tabindex="0">
+              <ul class="logoList">
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 18.png">
+                </li>
+
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Logo_Oracel Netsuite.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/MarketMan-Logo-Primary 1.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/revel-systems-logo.png"> </div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 18.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Jigsaw logo.png">
+                    <div>
+                </li>
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              tabindex="0">
+              <ul class="logoList">
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Logo_Oracel Netsuite.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/MarketMan-Logo-Primary 1.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/revel-systems-logo.png"> </div>
+                </li>
+
+
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+              tabindex="0">
+              <ul class="logoList">
+                <li>
+                  <div class="imgLogo"><img src="images/image 18.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/MarketMan-Logo-Primary 1.png">
+                </li>
+                <div>
+                  </li>
+
+
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+              tabindex="0">
+              <ul class="logoList">
+                <li>
+                  <div class="imgLogo"><img src="images/image 18.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Logo_Oracel Netsuite.png"></div>
+                </li>
+
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-electronic" role="tabpanel" aria-labelledby="pills-electronic-tab"
+              tabindex="0">
+              <ul class="logoList">
+
+                <li>
+                  <div class="imgLogo"><img src="images/MarketMan-Logo-Primary 1.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/revel-systems-logo.png"> </div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/Unleashed-Logo.png"></div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-inventory" role="tabpanel" aria-labelledby="pills-inventory-tab"
+              tabindex="0">
+              <ul class="logoList">
+                <li>
+                  <div class="imgLogo"><img src="images/image 18.png"></div>
+                </li>
+
+                <li>
+                  <div class="imgLogo"><img src="images/cwok_casual_21 1.png">
+                    <div>
+                </li>
+
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab"
+              tabindex="0">
+              <ul class="logoList">
+
+                <li>
+                  <div class="imgLogo"><img src="images/image 16.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 17.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 20.png">
+                    <div>
+                </li>
+                <li>
+                  <div class="imgLogo"><img src="images/image 20.png">
+                    <div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="articles">
+    <div class="container">
+
+      <h2>Latest Articles</h2>
+
+      <h3>To increase your in profit by enabling seamless operation for online ordering</h3>
+
+      <div class="row">
+
+        <div class="col-md-4">
+
+          <div class="article-col-img"> <a href="Article.html"><img src="images/image 27.png"></a></div>
+          <div class="user-info">
+            <a href="Article.html">  <h4>NEWSLETTER</h4></a>
+            <p>How to transform your restaurant into an online business! How to transform your restaurant into an online
+              business<!--  <span id="txt">your restaurant into an online
+              business!</span><button id="btn">...</button>--></p> 
+
+
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="article-col-img"> <a href="Article.html"><img src="images/image 28.png"></a></div>
+          <div class="user-info">
+            <a href="Article.html"> <h4>NEWSLETTER</h4></a>
+            <p>How to transform your restaurant into an online business! How to transform your restaurant into an online
+              business<!--  <span id="txt">your restaurant into an online
+              business!</span><button id="btn">...</button>--></p> 
+
+          </div>
+
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="article-col-img"> <a href="Article.html"><img src="images/Rectangle 149488.png"></a></div>
+          <div class="user-info">
+            <a href="Article.html"><h4>NEWSLETTER</h4></a>
+            <p>How to transform your restaurant into an online business! How to transform your restaurant into an online
+              business<!--  <span id="txt">your restaurant into an online
+              business!</span><button id="btn">...</button>--></p> 
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <img id="ellipse-2" src="images/Ellipse 23.png">
+      <div id="articles-btn">
+        <button>Explore all articles</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="ourClient">
+    <h1>Our Clients </h1>
+
+    <p>Jigsaw® is Trusted by Thousands of customers</p>
+    <div class="container"></div>
+    <div class="swiper-container swiper-full-mobile swiper-container-initialized swiper-container-horizontal">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide" id="one">
+          <img src="images/image 32.png" alt="">
+        </div>
+        <div class="swiper-slide" id="two">
+          <img src="images/image 33.png" alt="">
+        </div>
+        <div class="swiper-slide" id="three">
+          <img src="images/image 35.png" alt="">
+        </div>
+
+
+      </div>
+
+      <!-- Add Pagination     <div style="filter: blur(10)" class="swiper-pagination"></div> -->
+
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
+    </div>
+  </section>
+  <section id="AD">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <img id="sun" src="images/Document from Sama (1).png">
+          <img id="man" src="images/cwok_casual_21 1.png">
+
+        </div>
+        <div class="col">
+         <div class="col-txt"> <h2>Are You Still Thinking?</h2>
+          <p>Evaluate your business now with Jigsaw Solutions </p></div>
+         <div class="col-btn"><a href="#"><button class="buttonBox">Request a demo</button></a></div> 
+        </div>
+
+          
+
+
+
+      
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+
+    <div class="container">
+
+      <div id="footer-info">
+        <div class="coulnm-a">
+
+          <img src="images/logo.png">
+          <p>Jigsaw is an all-in-one cloud-based ordering and delivery platform that helps set up digital ordering and
+            delivery systems via mobile App, web ordering, self-services (Kiosk), or digital call center for F&B and
+            Retail Industries, leading to cutting high costs and increasing business profitability.</p>
+        </div>
+        <div class="coulnm-b">
+          <h3>Company</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>How Jigsaw works!</li>
+            <li>Integrations</li>
+          </ul>
+
+
+        </div>
+        <div class="coulnm-c">
+          <h3>Contact Us</h3>
+
+          <ul>
+            <li> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z"
+                  stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9" stroke="white" stroke-width="1.5"
+                  stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>Info@Jigsawme.io</li>
+            <li> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                  stroke="white" stroke-width="1.5" stroke-miterlimit="10" />
+                <path d="M18.5 9C18.5 8.4 18.03 7.48 17.33 6.73C16.69 6.04 15.84 5.5 15 5.5" stroke="white"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22 9C22 5.13 18.87 2 15 2" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>+966 92 003 3605</li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z"
+                  stroke="white" stroke-width="1.5" />
+                <path
+                  d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z"
+                  stroke="white" stroke-width="1.5" />
+              </svg>Al Rajmiyah، Almasiaf, Riyadh 12465</li>
+
+          </ul>
+
+        </div>
+        <div class="coulnm-d">
+          <img class="change1" id="footer-img2" src="images/Jigsaw-elements2 1 (1).png">
+          <img class="change2" id="footer-img3" src="images/sss.png">
+
+        </div>
+
+      </div>
+
+
+
+      <div id="footer-2">
+        <div class="left">
+          <p>Terms & Conidtions | Privacy Policy
+          </p>
+        </div>
+        <div class="center">
+          <p>Jigsaw ® 2022 All Right Reserved.</p>
+        </div>
+        <div class="social-links">
+          <!-- in-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+            <g clip-path="url(#clip0_1757_21695)">
+              <path
+                d="M17 9.92753V16.0051H13.3057V10.3395C13.3057 8.91545 12.7727 7.94406 11.4346 7.94406C10.4164 7.94406 9.80872 8.60013 9.54218 9.23077C9.44622 9.45963 9.41957 9.76987 9.41957 10.0903V16.0051H5.72531C5.72531 16.0051 5.77328 6.40814 5.72531 5.41132H9.41957V6.91163C9.41957 6.91163 9.40358 6.93706 9.39291 6.94723H9.41957V6.91163C9.91 6.18945 10.7843 5.16211 12.746 5.16211C15.1769 5.16211 16.9947 6.67769 16.9947 9.92753H17ZM0 16H3.68893V5.40623H0V16ZM3.80088 1.81055C3.80088 2.81246 2.94795 3.62619 1.89777 3.62619C0.847601 3.62619 0 2.81246 0 1.81055C0 0.808646 0.852932 0 1.9031 0C2.95328 0 3.80621 0.813732 3.80621 1.81055H3.80088Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1757_21695">
+                <rect width="17" height="16" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <!-- face-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="17" viewBox="0 0 8 17" fill="none">
+            <g clip-path="url(#clip0_1757_21698)">
+              <path
+                d="M8.59068 8.94007H6.2075V17H2.67823V8.94007H1V5.78306H2.67823V3.74536C2.67823 2.28644 3.33769 0 6.23934 0L8.85446 0.00956669V3.07569H6.95793C6.64866 3.07569 6.2075 3.23832 6.2075 3.93669V5.79263H8.8954L8.58613 8.94485L8.59068 8.94007Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1757_21698">
+                <rect width="8" height="17" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <!--insta-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+            <g clip-path="url(#clip0_1757_21692)">
+              <path
+                d="M13.7653 0H5.24008C2.34269 0 0 2.34269 0 5.24008V13.7653C0 16.6573 2.34269 19.0054 5.24008 19.0054H13.7653C16.6573 19.0054 19.0054 16.6627 19.0054 13.7653V5.24008C19.0054 2.34807 16.6627 0 13.7653 0ZM17.4651 13.7438C17.4651 15.801 15.7956 17.4651 13.7438 17.4651H5.26162C3.20437 17.4651 1.53486 15.7956 1.53486 13.7438V5.26162C1.53486 3.20437 3.20437 1.54025 5.26162 1.54025H13.7438C15.801 1.54025 17.4651 3.20975 17.4651 5.26162V13.7438Z"
+                fill="#FAFAFA" />
+              <path
+                d="M9.49996 4.4917C6.7372 4.4917 4.49146 6.73206 4.49146 9.5002C4.49146 12.2683 6.73182 14.5087 9.49996 14.5087C12.2681 14.5087 14.5085 12.2683 14.5085 9.5002C14.5085 6.73206 12.2681 4.4917 9.49996 4.4917ZM9.49996 12.7638C7.69582 12.7638 6.23635 11.299 6.23635 9.5002C6.23635 7.70145 7.69582 6.2366 9.49996 6.2366C11.3041 6.2366 12.7636 7.70145 12.7636 9.5002C12.7636 11.299 11.2987 12.7638 9.49996 12.7638Z"
+                fill="#FAFAFA" />
+              <path
+                d="M15.8009 4.32479C15.8009 4.94412 15.3001 5.45035 14.6754 5.45035C14.0507 5.45035 13.5498 4.9495 13.5498 4.32479C13.5498 3.70007 14.0507 3.19922 14.6754 3.19922C15.3001 3.19922 15.8009 3.70007 15.8009 4.32479Z"
+                fill="#FAFAFA" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1757_21692">
+                <rect width="19" height="19" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <!-- you-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M22.5403 6.42033C22.2873 5.46764 21.5418 4.71732 20.5953 4.46269C18.8796 4 12 4 12 4C12 4 5.12044 4 3.40474 4.46269C2.45821 4.71736 1.71273 5.46764 1.45971 6.42033C1 8.14715 1 11.75 1 11.75C1 11.75 1 15.3528 1.45971 17.0797C1.71273 18.0324 2.45821 18.7514 3.40474 19.006C5.12044 19.4687 12 19.4687 12 19.4687C12 19.4687 18.8796 19.4687 20.5953 19.006C21.5418 18.7514 22.2873 18.0324 22.5403 17.0797C23 15.3528 23 11.75 23 11.75C23 11.75 23 8.14715 22.5403 6.42033ZM9.74998 15.0211V8.47888L15.5 11.7501L9.74998 15.0211Z"
+              fill="white" />
+          </svg>
+
+          <!-- tw-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+            <g clip-path="url(#clip0_1757_21689)">
+              <path
+                d="M17.9999 1.77551C17.3381 2.07653 16.6264 2.28061 15.88 2.37245C16.6414 1.90306 17.2286 1.16327 17.5023 0.27551C16.7907 0.709184 15.9994 1.02551 15.1584 1.19388C14.4865 0.459184 13.5261 0 12.4611 0C10.4207 0 8.76854 1.69388 8.76854 3.78571C8.76854 4.08163 8.80337 4.37245 8.86309 4.64796C5.79259 4.4898 3.07044 2.98469 1.24904 0.688776C0.930549 1.25 0.746418 1.89796 0.746418 2.59184C0.746418 3.90306 1.39834 5.06633 2.38866 5.7449C1.78153 5.72449 1.21421 5.55612 0.716559 5.27041C0.716559 5.28571 0.716559 5.30102 0.716559 5.31633C0.716559 7.15306 1.99054 8.67857 3.67758 9.03061C3.36903 9.11735 3.04058 9.16327 2.70716 9.16327C2.46829 9.16327 2.23937 9.13776 2.01045 9.09694C2.47824 10.602 3.8418 11.6939 5.45916 11.7245C4.19513 12.7398 2.60265 13.3469 0.870831 13.3469C0.572241 13.3469 0.278627 13.3316 -0.0100098 13.2959C1.62228 14.3724 3.56312 15 5.65325 15C12.4462 15 16.1636 9.22959 16.1636 4.22449C16.1636 4.06122 16.1636 3.89796 16.1537 3.73469C16.8753 3.19898 17.5023 2.53571 17.995 1.77551H17.9999Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1757_21689">
+                <rect width="18" height="15" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <script>
+    var swiperMobile = new Swiper('.swiper-container.swiper-full-mobile', {
+      slidesPerView: 5,
+
+      spaceBetween: -100,
+      slideToClickedSlide: true,
+      centeredSlides: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+
+      },
+
+      loop: true,
+      //   autoplay: {
+      //     delay: 100000,
+      //   },
+
+
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+      },
+
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+
+        prevEl: '.swiper-button-prev',
+      },
+
+
+      breakpoints: {
+
+        640: {
+          freemode: true,
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        320: {
+          freemode: true,
+          slidesPerView: 3,
+          spaceBetween: 20,
+        }
+      }
+
+    });
+  </script>
+
+</body>
+
+
+</html>
